@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_home_seos",
+  "info": {
+    "displayName": "Seo"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "keyword": {
+      "type": "text"
+    },
+    "image_src": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_pages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "url_page": {
+      "type": "text"
+    },
+    "url_canonical": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_home_mains",
+  "info": {
+    "displayName": "main"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text_small": {
+      "type": "string"
+    },
+    "text_big": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "text_num": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
