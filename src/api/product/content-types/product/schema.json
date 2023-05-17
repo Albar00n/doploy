@@ -18,10 +18,7 @@
     "description": {
       "type": "text"
     },
-    "title_big": {
-      "type": "string"
-    },
-    "weight": {
+    "weight_num": {
       "type": "integer"
     },
     "ch": {
@@ -40,7 +37,7 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "title_big"
+      "targetField": "name"
     },
     "category": {
       "type": "relation",
@@ -51,6 +48,23 @@
     "explore": {
       "type": "boolean",
       "default": false
+    },
+    "photo_two": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "weight_text": {
+      "type": "string"
+    },
+    "competition": {
+      "type": "boolean"
     }
   }
 }

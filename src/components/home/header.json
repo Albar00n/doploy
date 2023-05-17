@@ -1,7 +1,8 @@
 {
   "collectionName": "components_home_headers",
   "info": {
-    "displayName": "header"
+    "displayName": "header",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,16 +10,20 @@
       "type": "text"
     },
     "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "text": {
+      "type": "string"
+    },
+    "title_text": {
       "type": "string"
     }
   }
