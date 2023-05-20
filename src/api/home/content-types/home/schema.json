@@ -52,6 +52,12 @@
     },
     "text_main": {
       "type": "string"
+    },
+    "featured_title": {
+      "type": "string"
+    },
+    "featured_text": {
+      "type": "string"
     }
   }
 }
