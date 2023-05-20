@@ -66,21 +66,11 @@
     "competition": {
       "type": "boolean"
     },
-    "subscription": {
-      "type": "enumeration",
-      "enum": [
-        "mths 3",
-        "mths 6",
-        "mths 12",
-        "limitless"
-      ]
-    },
     "size": {
-      "type": "enumeration",
-      "enum": [
-        "g 250",
-        "kg 1"
-      ]
+      "type": "json"
+    },
+    "subscription": {
+      "type": "json"
     }
   }
 }
