@@ -49,6 +49,9 @@
       "type": "component",
       "repeatable": false,
       "component": "home.seo"
+    },
+    "text_main": {
+      "type": "string"
     }
   }
 }
