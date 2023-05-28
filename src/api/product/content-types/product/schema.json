@@ -71,6 +71,12 @@
     },
     "subscription": {
       "type": "json"
+    },
+    "specifications": {
+      "displayName": "specifications",
+      "type": "component",
+      "repeatable": true,
+      "component": "product.specifications"
     }
   }
 }
