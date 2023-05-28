@@ -77,6 +77,9 @@
       "type": "component",
       "repeatable": true,
       "component": "product.specifications"
+    },
+    "big_description": {
+      "type": "richtext"
     }
   }
 }
