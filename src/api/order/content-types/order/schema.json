@@ -4,7 +4,8 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "order"
+    "displayName": "order",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,8 +15,24 @@
     "stripeId": {
       "type": "text"
     },
-    "product": {
+    "products": {
       "type": "json"
+    },
+    "size": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
