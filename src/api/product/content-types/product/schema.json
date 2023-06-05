@@ -80,6 +80,12 @@
     },
     "price": {
       "type": "integer"
+    },
+    "package": {
+      "displayName": "package",
+      "type": "component",
+      "repeatable": false,
+      "component": "product.package"
     }
   }
 }
