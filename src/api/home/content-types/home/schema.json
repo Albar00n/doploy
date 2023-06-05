@@ -18,18 +18,6 @@
       "repeatable": false,
       "component": "home.header"
     },
-    "slider": {
-      "displayName": "Slider",
-      "type": "component",
-      "repeatable": true,
-      "component": "home.slider"
-    },
-    "main": {
-      "displayName": "main",
-      "type": "component",
-      "repeatable": true,
-      "component": "home.main"
-    },
     "title_main": {
       "type": "text"
     },
@@ -58,6 +46,26 @@
     },
     "featured_text": {
       "type": "string"
+    },
+    "logo_nav": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "logo_footer": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
