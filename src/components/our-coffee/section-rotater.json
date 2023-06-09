@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_our_coffee_section_rotaters",
+  "info": {
+    "displayName": "section_rotater"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

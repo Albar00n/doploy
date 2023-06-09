@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_our_coffee_section_dates",
+  "info": {
+    "displayName": "section_date"
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "type": "string"
+    },
+    "first_time": {
+      "type": "time"
+    },
+    "last_time": {
+      "type": "time"
+    }
+  }
+}

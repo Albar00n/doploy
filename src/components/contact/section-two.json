@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_contact_section_twos",
+  "info": {
+    "displayName": "section_two"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

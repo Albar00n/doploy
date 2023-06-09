@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.header"
+    },
+    "address": {
+      "displayName": "address",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.address"
+    },
+    "email": {
+      "displayName": "email",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.email"
+    },
+    "section_desgin": {
+      "displayName": "section_desgin",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.section-desgin"
+    },
+    "section_two": {
+      "displayName": "section_two",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.section-two"
+    },
+    "section_three": {
+      "displayName": "section_three",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.section-three"
+    },
+    "section_links": {
+      "displayName": "section_links",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.section-links"
+    },
+    "section_urheberrechte": {
+      "displayName": "section_urheberrechte",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.section-urheberrechte"
+    },
+    "text_footer": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.seo"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_section_championship_descs",
+  "info": {
+    "displayName": "section_championship_desc"
+  },
+  "options": {},
+  "attributes": {
+    "text_one": {
+      "type": "text"
+    },
+    "text_two": {
+      "type": "text"
+    }
+  }
+}

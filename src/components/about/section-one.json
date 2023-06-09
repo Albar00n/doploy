@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_about_section_ones",
+  "info": {
+    "displayName": "section_one"
+  },
+  "options": {},
+  "attributes": {
+    "text_one": {
+      "type": "string"
+    },
+    "text_two": {
+      "type": "string"
+    },
+    "text_three": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "bg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_section_fives",
+  "info": {
+    "displayName": "section_five"
+  },
+  "options": {},
+  "attributes": {
+    "text_one": {
+      "type": "text"
+    },
+    "text_two": {
+      "type": "text"
+    }
+  }
+}

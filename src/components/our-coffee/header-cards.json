@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_our_coffee_header_cards",
+  "info": {
+    "displayName": "header_cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

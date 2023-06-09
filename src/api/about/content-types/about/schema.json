@@ -1,0 +1,85 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "about"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "displayName": "Header",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.header"
+    },
+    "section_one": {
+      "displayName": "section_one",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.section-one"
+    },
+    "section_three": {
+      "displayName": "section_three",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.section-three"
+    },
+    "section_championship": {
+      "displayName": "section_championship",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.section-championship"
+    },
+    "section_championship_desc": {
+      "displayName": "section_championship_desc",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.section-championship-desc"
+    },
+    "section_bg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text_section_bg": {
+      "type": "text"
+    },
+    "section_four": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.section-one"
+    },
+    "section_five": {
+      "displayName": "section_five",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.section-five"
+    },
+    "section_six": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.section-one"
+    },
+    "footer": {
+      "displayName": "footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.footer"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.seo"
+    }
+  }
+}

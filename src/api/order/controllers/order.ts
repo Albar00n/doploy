@@ -21,7 +21,7 @@ module.exports = createCoreController('api::order.order', ({ strapi }) => ({
             },
             unit_amount: product.price * 100,
           },
-          quantity: 1,
+          quantity: product.amount,
         }
       })
       const sampleProduct = products.find((product) => product.package)

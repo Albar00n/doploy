@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_our_coffee_section_ones",
+  "info": {
+    "displayName": "section_one"
+  },
+  "options": {},
+  "attributes": {
+    "small_text": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "section_date": {
+      "displayName": "section_date",
+      "type": "component",
+      "repeatable": true,
+      "component": "our-coffee.section-date"
+    }
+  }
+}

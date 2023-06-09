@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_contact_section_threes",
+  "info": {
+    "displayName": "section_three"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text_one": {
+      "type": "text"
+    },
+    "text_two": {
+      "type": "text"
+    },
+    "text_three": {
+      "type": "text"
+    }
+  }
+}

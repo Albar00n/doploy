@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_coffees",
+  "info": {
+    "singularName": "our-coffee",
+    "pluralName": "our-coffees",
+    "displayName": "ourCoffee"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "our-coffee.header"
+    },
+    "section_one": {
+      "displayName": "section_one",
+      "type": "component",
+      "repeatable": true,
+      "component": "our-coffee.section-one"
+    },
+    "header_cards": {
+      "displayName": "header_cards",
+      "type": "component",
+      "repeatable": false,
+      "component": "our-coffee.header-cards"
+    },
+    "section_rotater": {
+      "displayName": "section_rotater",
+      "type": "component",
+      "repeatable": false,
+      "component": "our-coffee.section-rotater"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "our-coffee.cards"
+    }
+  }
+}

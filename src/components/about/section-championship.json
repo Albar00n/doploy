@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_section_championships",
+  "info": {
+    "displayName": "section_championship"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "text": {
+      "type": "string"
+    },
+    "num": {
+      "type": "string"
+    },
+    "date": {
+      "type": "integer"
+    }
+  }
+}

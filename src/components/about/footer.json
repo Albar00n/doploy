@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_footers",
+  "info": {
+    "displayName": "footer"
+  },
+  "options": {},
+  "attributes": {
+    "text_one": {
+      "type": "text"
+    },
+    "text_two": {
+      "type": "text"
+    },
+    "text_three": {
+      "type": "string"
+    }
+  }
+}
