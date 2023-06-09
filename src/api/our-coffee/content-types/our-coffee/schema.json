@@ -4,7 +4,8 @@
   "info": {
     "singularName": "our-coffee",
     "pluralName": "our-coffees",
-    "displayName": "ourCoffee"
+    "displayName": "ourCoffee",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -40,6 +41,11 @@
       "type": "component",
       "repeatable": true,
       "component": "our-coffee.cards"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.seo"
     }
   }
 }
