@@ -57,7 +57,7 @@
         "audios"
       ]
     },
-    "weight_text": {
+    "subscription_prod": {
       "type": "string"
     },
     "competition": {
@@ -86,6 +86,9 @@
       "type": "component",
       "repeatable": false,
       "component": "product.package"
+    },
+    "Quantity": {
+      "type": "biginteger"
     }
   }
 }
