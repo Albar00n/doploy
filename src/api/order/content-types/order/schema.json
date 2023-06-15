@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "stripeId": {
+    "checkout_session_id": {
       "type": "text"
     },
     "products": {
@@ -24,15 +24,25 @@
     "subscription": {
       "type": "string"
     },
-    "img": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "customer_email": {
+      "type": "email"
+    },
+    "checkout_session_url": {
+      "type": "text"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "paid",
+        "unpaid"
+      ]
+    },
+    "total": {
+      "type": "biginteger",
+      "required": true
+    },
+    "has_extras": {
+      "type": "boolean"
     }
   }
 }
