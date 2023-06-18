@@ -4,7 +4,7 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "order",
+    "displayName": "Order",
     "description": ""
   },
   "options": {
@@ -41,8 +41,35 @@
       "type": "biginteger",
       "required": true
     },
-    "has_extras": {
-      "type": "boolean"
+    "customer_name": {
+      "type": "string"
+    },
+    "shipping_status": {
+      "type": "enumeration",
+      "enum": [
+        "processing",
+        "processed",
+        "enroute",
+        "delivered"
+      ]
+    },
+    "estimated_delivery_date": {
+      "type": "datetime"
+    },
+    "delivered_at": {
+      "type": "datetime"
+    },
+    "shipping_address": {
+      "type": "json"
+    },
+    "customer_phone_number": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "samples": {
+      "type": "json"
     }
   }
 }

@@ -1,9 +1,9 @@
 export default {
   routes: [
     {
-      method: "GET",
-      path: "/order/:id",
-      handler: "order.retrieve",
+      method: "POST",
+      path: "/orders/webhook",
+      handler: "order.webhook",
       config: {
         auth: false,
       },

@@ -36,12 +36,6 @@
       "type": "uid",
       "targetField": "name"
     },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "products"
-    },
     "explore": {
       "type": "boolean",
       "default": false
@@ -89,6 +83,12 @@
     },
     "Quantity": {
       "type": "biginteger"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "products"
     }
   }
 }
