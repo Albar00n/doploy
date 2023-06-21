@@ -7,9 +7,6 @@
   "options": {},
   "attributes": {
     "size": {
-      "type": "biginteger"
-    },
-    "size_name": {
       "type": "string"
     },
     "available": {
