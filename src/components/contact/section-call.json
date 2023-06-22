@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_contact_section_links",
+  "collectionName": "components_contact_section_calls",
   "info": {
-    "displayName": "section_links"
+    "displayName": "section_call"
   },
   "options": {},
   "attributes": {
@@ -9,7 +9,7 @@
       "type": "string"
     },
     "text": {
-      "type": "text"
+      "type": "string"
     }
   }
 }

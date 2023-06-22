@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "contact"
+    "displayName": "contact",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -29,38 +30,11 @@
       "repeatable": false,
       "component": "contact.email"
     },
-    "section_desgin": {
-      "displayName": "section_desgin",
+    "section_call": {
+      "displayName": "section_call",
       "type": "component",
       "repeatable": false,
-      "component": "contact.section-desgin"
-    },
-    "section_two": {
-      "displayName": "section_two",
-      "type": "component",
-      "repeatable": false,
-      "component": "contact.section-two"
-    },
-    "section_three": {
-      "displayName": "section_three",
-      "type": "component",
-      "repeatable": false,
-      "component": "contact.section-three"
-    },
-    "section_links": {
-      "displayName": "section_links",
-      "type": "component",
-      "repeatable": false,
-      "component": "contact.section-links"
-    },
-    "section_urheberrechte": {
-      "displayName": "section_urheberrechte",
-      "type": "component",
-      "repeatable": false,
-      "component": "contact.section-urheberrechte"
-    },
-    "text_footer": {
-      "type": "text"
+      "component": "contact.section-call"
     },
     "seo": {
       "type": "component",
