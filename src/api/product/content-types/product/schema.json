@@ -40,7 +40,7 @@
     "competition": {
       "type": "boolean"
     },
-    "specifications": {
+    "coffee_profile": {
       "displayName": "specifications",
       "type": "component",
       "repeatable": true,

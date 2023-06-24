@@ -11,6 +11,9 @@
     },
     "available": {
       "type": "boolean"
+    },
+    "price": {
+      "type": "biginteger"
     }
   }
 }

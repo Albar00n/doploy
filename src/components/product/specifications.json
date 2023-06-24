@@ -8,6 +8,12 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
     }
   }
 }
